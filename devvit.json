@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "devjr-stats",
+  "server": {
+    "dir": "dist/server",
+    "entry": "index.cjs"
+  },
+  "menu": {
+    "items": [
+      {
+        "label": "Estatisticas",
+        "description": "Mostra os numeros de engajamento da comunidade. Pode levar alguns segundos.",
+        "location": "subreddit",
+        "forUserType": "moderator",
+        "endpoint": "/internal/menu/stats"
+      }
+    ]
+  },
+  "forms": {
+    "stats": "/internal/form/stats-close"
+  },
+  "triggers": {
+    "onAppInstall": "/internal/triggers/on-app-install"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite build --watch"
+  },
+  "permissions": {
+    "reddit": true
+  },
+  "dev": {
+    "subreddit": "devjr_stats_dev"
+  }
+}
