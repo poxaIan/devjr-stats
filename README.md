@@ -1,12 +1,12 @@
 # devjr-stats
 
-Um app de moderação do Reddit que mede a saúde do **r/devjr**, uma comunidade de ~3,2 mil devs iniciantes. Eu sou moderador dela desde abril de 2025, e este app roda lá dentro, em produção, desde outubro de 2026.
+Um app de moderação para o Reddit que mede a saúde do **r/devjr**, uma comunidade de ~3,2 mil devs iniciantes. Eu sou moderador dela desde abril de 2025, e este app roda lá dentro, em produção, desde outubro de 2026.
 
 Feito em **TypeScript**, na plataforma de apps do próprio Reddit (Devvit).
 
 ## Por que ele existe
 
-Eu moderava o r/devjr sozinho e queria crescer a comunidade e ajudar quem está começando. Para isso eu precisava de números: quantos posts por semana, se alguém responde, quando as pessoas participam.
+Como moderador do r/devjr, eu queria crescer a comunidade e ajudar quem está começando. Para isso eu precisava de números: quantos posts por semana, se alguém responde, quando as pessoas participam.
 
 O Insights do Reddit mostra o volume (membros, visualizações, posts), mas não responde se a comunidade está respondendo quem pergunta. E a API do Reddit deixou de ser self-service em nov/2025: a chave passou a depender de aprovação manual, e há relatos de que projeto pessoal quase não passa.
 
